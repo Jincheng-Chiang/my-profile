@@ -1,0 +1,77 @@
+/* Style.css */
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.card-white {
+    background: #fff;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+h1 {
+    font-size: 24px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 20px;
+    color: #5c5c8a;
+}
+
+h3 {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #666;
+}
+
+.btn-blue {
+    display: inline-block;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.list-inline {
+    list-style: none;
+    text-align: center;
+}
+
+.list-inline li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.fa-instagram-square, .fa-linkedin {
+    font-size: 28px;
+    color: #333;
+}
+
+.fa-instagram-square:hover, .fa-linkedin:hover {
+    color: #007bff;
+}
